@@ -1,10 +1,10 @@
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main(){
-        int x, y, z, simpan;
-        scanf("%d %d %d",&x,&y,&z);
+int main(){
+    int x, y, z, simpan;
+    scanf("%d %d %d",&x,&y,&z);
 
-        if(x > y){
+    if(x > y){
             simpan = x;
             x = y;
             y = simpan;
